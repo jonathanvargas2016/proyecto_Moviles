@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">proyectoMoviles</string>
+    <string name="buttonE">Estudiante</string>
+    <string name="buttonP">Profesor</string>
 </resources>
