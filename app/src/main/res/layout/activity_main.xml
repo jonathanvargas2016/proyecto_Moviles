@@ -26,6 +26,7 @@
         android:layout_marginBottom="8dp"
         android:backgroundTint="@color/colorBR"
         android:text="@string/buttonP"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -37,6 +38,7 @@
         android:backgroundTint="@color/colorBE"
         android:onClick="registroEstudianre"
         android:text="@string/buttonE"
+        android:textSize="18sp"
         app:layout_constraintBottom_toTopOf="@+id/button4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

@@ -9,7 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".registroProfesor"></activity>
+        <activity
+            android:name=".navegacion"
+            android:label="@string/title_activity_navegacion"
+            android:theme="@style/NoActionBar">
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+
+        </activity>
+        <activity android:name=".seleccion">
+
+        </activity>
+        <activity android:name=".registro_est_verif" />
+        <activity android:name=".registro_est_celular" />
         <activity android:name=".registroEstudiante" />
         <activity android:name=".MainActivity">
             <intent-filter>
