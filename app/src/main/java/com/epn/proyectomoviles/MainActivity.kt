@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
 
     fun registroEstudianre(view: View){
 
-        var intent : Intent = Intent(this, registroEstudiante::class.java)
+        var intent : Intent = Intent(this, SeleccionDiaActivity::class.java)
         startActivity(intent)
 
     }
