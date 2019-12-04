@@ -18,11 +18,10 @@ class bibliotecas : AppCompatActivity(), AdapterView.OnItemClickListener  {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_bibliotecas)
 
-<<<<<<< Updated upstream
         listView = findViewById(R.id.idListaBib)
-=======
+
         listView = this.findViewById(R.id.idListaBib)
->>>>>>> Stashed changes
+
         listView.setOnItemClickListener(this)
         imagen_AdapterBi  = ImageAdapterBi(this)
         listView!!.adapter = imagen_AdapterBi
@@ -33,11 +32,9 @@ class bibliotecas : AppCompatActivity(), AdapterView.OnItemClickListener  {
 
 
     override fun onItemClick(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
-<<<<<<< Updated upstream
-        val intent = Intent(this, MainActivity::class.java)
-=======
+
         val intent = Intent(this, SeleccionDiaActivity::class.java)
->>>>>>> Stashed changes
+
         startActivity(intent)
 
     }
