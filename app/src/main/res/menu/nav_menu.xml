@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/nav_profile"
+            android:title="Tus Tutores"/>
+        <item
+            android:id="@+id/nav_messages"
+            android:title="Tus Servicios"/>
+        <item
+            android:id="@+id/nav_friends"
+            android:title="Configuracion"/>
+    </group>
+
+</menu>

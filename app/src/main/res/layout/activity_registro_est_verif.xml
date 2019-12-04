@@ -20,6 +20,7 @@
         android:layout_height="70dp"
         android:layout_marginBottom="272dp"
         android:backgroundTint="@color/colorBR"
+        android:onClick="siguiente"
         android:text="@string/verificar"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"

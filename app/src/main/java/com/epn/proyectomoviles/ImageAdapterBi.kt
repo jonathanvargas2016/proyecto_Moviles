@@ -7,11 +7,12 @@ import android.widget.AbsListView
 import android.widget.BaseAdapter
 import android.widget.ImageView
 
-class  ImageAdapter2 (private var mContext : Context) : BaseAdapter(){
+class ImageAdapterBi (private var mContext : Context) : BaseAdapter(){
 
     internal var mThumbsID = arrayOf(
-        R.drawable.fisica, R.drawable.math,
-        R.drawable.geo, R.drawable.quimica
+        R.drawable.b1, R.drawable.b2,
+        R.drawable.b3, R.drawable.b4,
+        R.drawable.b5, R.drawable.b6
     )
 
     override fun getView(position: Int, convertView: View?, parent: ViewGroup?): View {
@@ -32,6 +33,7 @@ class  ImageAdapter2 (private var mContext : Context) : BaseAdapter(){
 
     override fun getItem(position: Int): Any? {
         return null
+
     }
 
     override fun getItemId(position: Int): Long {
