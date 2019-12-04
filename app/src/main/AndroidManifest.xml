@@ -9,11 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".ServicioRealizadoActivity" ></activity>
+        <activity android:name=".ServicioRealizadoTimeActivity" />
+        <activity android:name=".SeleccionEsperaActivity" />
+        <activity android:name=".SeleccionHorarioActivity" />
+        <activity android:name=".SeleccionDiaActivity" />
+
         <activity android:name=".bibliotecas">
-
-
-
-
 
         </activity>
         <activity android:name=".activity_navegation"></activity>
@@ -21,7 +23,6 @@
         <activity android:name=".registro_est_celular" />
         <activity android:name=".registroEstudiante" />
         <activity android:name=".MainActivity">
-
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
