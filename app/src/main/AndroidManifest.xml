@@ -9,6 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+        <activity android:name=".ServicioRealizadoActivity" android:parentActivityName=".SeleccionHorarioActivity"></activity>
+        <activity android:name=".ServicioRealizadoTimeActivity" android:parentActivityName=".SeleccionHorarioActivity"/>
+        <activity android:name=".SeleccionEsperaActivity" />
+        <activity android:name=".SeleccionHorarioActivity" android:parentActivityName=".SeleccionDiaActivity"/>
+<!--        <activity android:name=".SeleccionDiaActivity" />-->
+        <activity android:name=".SeleccionDiaActivity">
+=======
+>>>>>>> Stashed changes
         <activity android:name=".bibliotecas">
 
 
@@ -20,9 +31,21 @@
         <activity android:name=".registro_est_verif" />
         <activity android:name=".registro_est_celular" />
         <activity android:name=".registroEstudiante" />
+<<<<<<< Updated upstream
         <activity android:name=".MainActivity">
 
 
+=======
+        <activity android:name=".SeleccionDiaActivity" />
+        <activity android:name=".SeleccionHorarioActivity" />
+        <activity android:name=".SeleccionEsperaActivity" />
+        <activity android:name=".ServicioRealizadoActivity" />
+        <activity android:name=".ServicioRealizadoTimeActivity" />
+        <activity android:name=".MainActivity">
+
+
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
