@@ -47,13 +47,20 @@ class activity_navegation : AppCompatActivity(), NavigationView.OnNavigationItem
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.nav_profile -> {
+            R.id.nav_tutoles -> {
                 Toast.makeText(this, "Tus Tutores", Toast.LENGTH_SHORT).show()
+
+                var detalleSer : Intent = Intent(this, DetalleServicio::class.java)
+                startActivity(detalleSer)
+
+
             }
-            R.id.nav_messages -> {
+            R.id.nav_servicios -> {
                 Toast.makeText(this, "Tus Servicios", Toast.LENGTH_SHORT).show()
+                var servi : Intent = Intent(this, ServiciosRealizados::class.java)
+                startActivity(servi)
             }
-            R.id.nav_friends -> {
+            R.id.nav_configuracion -> {
                 Toast.makeText(this, "Configuracion", Toast.LENGTH_SHORT).show()
             }
 
@@ -63,9 +70,6 @@ class activity_navegation : AppCompatActivity(), NavigationView.OnNavigationItem
     }
 
     fun listView(){
-        /*var listView:ListView = findViewById(R.id.idListView)
-        var imagen_Adapter : ImageAdapter2 = ImageAdapter2(this)
-        listView.adapter = imagen_Adapter*/
 
         listView = findViewById(R.id.idListView)
         listView.setOnItemClickListener(this)
