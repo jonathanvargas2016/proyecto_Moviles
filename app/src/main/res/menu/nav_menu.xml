@@ -3,13 +3,13 @@
 
     <group>
         <item
-            android:id="@+id/nav_profile"
+            android:id="@+id/nav_tutoles"
             android:title="Tus Tutores"/>
         <item
-            android:id="@+id/nav_messages"
+            android:id="@+id/nav_servicios"
             android:title="Tus Servicios"/>
         <item
-            android:id="@+id/nav_friends"
+            android:id="@+id/nav_configuracion"
             android:title="Configuracion"/>
     </group>
 

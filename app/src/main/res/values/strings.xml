@@ -26,4 +26,20 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+
+
+    <string name="servicio_titulo">Elije un Servicio</string>
+    <string name="servicio_fecha">DD/MM/AAAA</string>
+    <string name="servicio_moneda">"USD"</string>
+    <string name="servicio_valor">"0.00"</string>
+    <string name="servicio_nombre_profe">"Nombre del Profesor"</string>
+    <string name="servicio_efectivo">"Efectivo"</string>
+    <string name="servicio_detalle">Detalle de Servicio</string>
+    <string name="servicio_detalle_ayuda">Ayuda</string>
+    <string name="servicio_detalle_Recibo">Recibo</string>
+    <string name="servicio_detalle_ayuda1">Mi Tutor tuvo un mal comportamiento</string>
+    <string name="servicio_detalle_ayuda2">Artículos perdidos</string>
+    <string name="servicio_detaller_ayuda3">Reportar uuun robo</string>
+    <string name="servicio_detalle_ayuda4">El tutor no era el que esperaba</string>
+    <string name="servicio_detalle_ayuda5">El servicio no es el que esperaba</string>
 </resources>

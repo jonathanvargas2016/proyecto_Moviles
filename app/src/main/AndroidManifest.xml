@@ -8,29 +8,25 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".ServicioRealizadoActivity" ></activity>
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".DetalleServicio"></activity>
+        <activity android:name=".ServiciosRealizados" />
+        <activity android:name=".ServicioRealizadoActivity" />
         <activity android:name=".ServicioRealizadoTimeActivity" />
         <activity android:name=".SeleccionEsperaActivity" />
         <activity android:name=".SeleccionHorarioActivity" />
         <activity android:name=".SeleccionDiaActivity" />
-
-        <activity android:name=".bibliotecas">
-
-        </activity>
-        <activity android:name=".activity_navegation"></activity>
+        <activity android:name=".bibliotecas" />
+        <activity android:name=".activity_navegation" />
         <activity android:name=".registro_est_verif" />
         <activity android:name=".registro_est_celular" />
         <activity android:name=".registroEstudiante" />
         <activity android:name=".MainActivity">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
-
         </activity>
     </application>
 
