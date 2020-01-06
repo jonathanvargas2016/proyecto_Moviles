@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".registro_est_verif">
 
     <ImageView
         android:id="@+id/imageView"
@@ -12,33 +12,37 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:srcCompat="@drawable/fondo1" />
+        app:srcCompat="@drawable/fondo2" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/button3"
         android:layout_width="312dp"
         android:layout_height="70dp"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="272dp"
         android:backgroundTint="@color/colorBR"
-        android:text="@string/buttonP"
+        android:onClick="siguiente"
+        android:text="@string/verificar"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="@+id/imageView"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="312dp"
-        android:layout_height="70dp"
-        android:backgroundTint="@color/colorBE"
-        android:onClick="registroEstudianre"
-        android:text="@string/buttonE"
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:hint="@string/codigoVer"
+        android:inputType="number"
         android:textColor="@android:color/background_light"
-        android:textColorHint="@color/colorBE"
-        android:textSize="18sp"
-        app:layout_constraintBottom_toTopOf="@+id/button4"
+        android:textColorHint="@android:color/background_light"
+        android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
