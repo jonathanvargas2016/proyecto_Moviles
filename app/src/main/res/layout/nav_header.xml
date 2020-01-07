@@ -14,19 +14,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
+        android:contentDescription="@string/foto"
         app:srcCompat="@mipmap/ic_launcher" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mas posibilidades con tu cuenta"
+        android:text="@string/Mas_posibilidades_con_tu_cuenta"
         android:textColor="@color/colorBE"
         android:textStyle="bold" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Genera ganancias como Tutor"
+        android:text="@string/Genera_ganancias_como_Tutor"
         android:textColor="@android:color/background_dark" />
 
 </LinearLayout>
