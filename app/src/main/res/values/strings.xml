@@ -19,6 +19,12 @@
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Settings</string>
+    <string name="codigoPais">+593</string>
+    <string name="Elige_una_Materia">Elige una Materia</string>
+    <string name="Elige_una_Biblioteca"> Elige una Biblioteca</string>
+    <string name="Mas_posibilidades_con_tu_cuenta">Mas posibilidades con tu cuenta</string>
+    <string name="Genera_ganancias_como_Tutor">Genera ganancias como Tutor</string>
+    <string name="foto">foto del estudiante</string>
 
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
