@@ -20,7 +20,7 @@ class  ImageAdapter2 (private var mContext : Context) : BaseAdapter(){
             imageView = ImageView(mContext)
             imageView.layoutParams = AbsListView.LayoutParams(1100,700)
             imageView.scaleType = ImageView.ScaleType.CENTER_CROP
-            imageView.setPadding(8,8,8,8)
+            imageView.setPadding(0,8,0,8)
 
         }else{
 
