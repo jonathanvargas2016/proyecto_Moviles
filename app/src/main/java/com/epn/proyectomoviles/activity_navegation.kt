@@ -71,12 +71,11 @@ class activity_navegation : AppCompatActivity(), NavigationView.OnNavigationItem
 
     fun listView(){
 
-        listView = findViewById(R.id.idListView)
+        listView = findViewById(R.id.idListaBib)
         listView.setOnItemClickListener(this)
         imagen_Adapter2  = ImageAdapter2(this)
         listView!!.adapter = imagen_Adapter2
         imagen_Adapter2.notifyDataSetChanged()
-
 
     }
 
